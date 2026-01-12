@@ -1,0 +1,57 @@
+.gif
+{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.form-floating
+{
+    width: 300px;
+    margin: 30px;
+}
+
+input
+{
+    font-size: 200px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+label 
+{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15px;
+}
+
+.modal-content
+{
+    background-color: #FFE5EC;
+}
+
+#modalTitle
+{
+    font-family: 'Courier New', Courier, monospace;
+    color: #FB6F92;
+}
+
+#modalMessage
+{
+    font-family: 'Courier New', Courier, monospace;
+    color: #FB6F92;
+}
+
+.btn
+{
+    margin-left: 80px;
+    width: 200px;
+    height: 40px;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #FFC2D1;
+    border-color: #FFC2D1;
+}
+
+.btn:hover 
+{
+    background-color: #FFB3C6;
+    border-color: #FFC2D1;
+}

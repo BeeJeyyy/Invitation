@@ -1,0 +1,132 @@
+.card
+{
+    margin: 35px;
+    height: 85vh;
+    border-radius: 15px;
+    position: relative;
+    top: -25px;
+}
+
+.card-img-top
+{
+    padding: 10px;
+    height: 300px;
+    border-radius: 20px;
+}
+
+.card-text
+{
+    font-family: 'Courier New', Courier, monospace;
+    color: #FFB3C6;
+}
+
+.bold
+{
+    color: #FF8FAB;
+    font-weight: 900;
+}
+
+.small-text
+{
+    font-family: 'Courier New', Courier, monospace;
+    color: #FF8FAB;
+    font-weight: bold;
+}
+
+.big-text
+{
+    font-family: 'Courier New', Courier, monospace;
+    color: #FF8FAB;
+    font-size: 20px;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.card-title 
+{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    color: #FF8FAB;
+    font-weight: bolder;
+    font-size: 15px;
+}
+
+.links
+{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.text-plain
+{
+    text-decoration: none;
+    font-family: 'Courier New', Courier, monospace;
+    color: #ee0d45;
+}
+
+.photobooth
+{
+    width: 50px;
+    height: 50px;
+}
+
+.food
+{
+    width: 40px;
+    height: 40px;
+}
+
+.gym 
+{
+    width: 50px;
+    height: 50px;
+}
+
+.item
+{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.modal-header
+{
+    background-color: #FFE5EC;
+}
+
+.modal-title
+{
+    font-family: 'Courier New', Courier, monospace;
+    color: #FB6F92;
+}
+
+.modal-body
+{
+    background-color: #FFE5EC;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.modal-body h1
+{
+    font-size: 20px;
+    color: #ee0d45;
+}
+
+.modal-body p
+{
+    font-size: 19px;
+    color: #ee0d45;
+}
+
+.modal-footer
+{
+    background-color: #FFE5EC;
+}
+
+.modal-footer button
+{
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #FFB3C6;
+    border-color: #FFB3C6;
+}

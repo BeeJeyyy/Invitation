@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- css link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" 
+    crossorigin="anonymous">
+
+    <link rel="stylesheet" href="resources/landing.css">
+
+    <title>Landing</title>
+</head>
+<body style="background-color: #FFE5EC;">
+
+    <div class="card" style="width: 18rem;">
+        <img src="src/photo.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+            <p class="card-text"><b class="bold">Dear my Alfea Almirañez!</b></p>
+            <p class="small-text">May I take you out on a special monthsary date on</p>
+            
+            <p class="big-text mb-1">Tuesday, January 13,2026</p>
+        </div>
+
+        <!-- card for plan for a date -->
+         <div class="card mt-2">
+            <div class="card-body">
+                <h5 class="card-title">Here's the plan:</h5>
+                <!-- photobooth, food, gmy -->
+                 <div class="links">
+                    <div class="item">
+                 <img src="src/photobooth.png" alt="photobooth" class="photobooth">
+                 <a href="#" data-bs-toggle="modal" data-bs-target="#photobooth" class="text-plain">
+                    Photobooth
+                </a>
+            </div>
+            
+            <div class="item">
+                <img src="src/food.png" alt="food" class="food">
+                <a href="#" data-bs-toggle="modal" data-bs-target="#food" class="text-plain">
+                    Food
+                </a>
+            </div>
+            
+            <div class="item">
+                <img src="src/gym.png" alt="gym" class="gym">
+                <a href="#" data-bs-toggle="modal" data-bs-target="#gym" class="text-plain">
+                    Gym
+                </a>
+            </div>
+        </div>
+    
+    </div>
+</div>
+
+</div>
+    
+ <!-- modal for photobooth -->
+  <div class="modal fade" id="photobooth" tabindex="-1" aria-labelledby="centeredModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="centeredModalLabel">Photobooth</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+            <h1>Any of the following:</h1>
+            <p>• Timezone</p>
+            <p>• Oldmoon</p>
+            <p>• Life4Cuts</p>
+        </div>
+        <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        </div>
+    </div>
+</div>
+</div>
+
+   <!-- modal for food -->
+    <div class="modal fade" id="food" tabindex="-1" aria-labelledby="centeredModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="centeredModalLabel">Food</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <h1>Any of the following:</h1>
+                    <p>• Jollibee</p>
+                    <p>• Mcdo</p>
+                    <p>• Kuya Rice</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+     <!-- modal for gym -->
+      <div class="modal fade" id="gym" tabindex="-1" aria-labelledby="centeredModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="centeredModalLabel">Gym</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>• Equinox Fitness Gym</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- js link -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+    crossorigin="anonymous"></script>
+    
+    <script src="resources/landing.js"></script>
+
+</body>
+</html>
